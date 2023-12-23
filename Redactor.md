@@ -3,13 +3,13 @@
 Для ознакомление возможностей редактирования рассмотрим спутниковую
 реализацию BGAN:
 
-![](vertopal_98581d7ae3834858b460099727913768/media/image1.png){width="17.447916666666668in"
+![](media/images_redactor/image1.png){width="17.447916666666668in"
 height="10.46875in"}
 
 При зажатом колесе мыши имеется возможность выделить произвольный
 прямоугольник:
 
-![](vertopal_98581d7ae3834858b460099727913768/media/image2.png){width="13.041666666666666in"
+![](media/images_redactor/image2.png){width="13.041666666666666in"
 height="7.4375in"}
 
 Любое выделение можно:
@@ -35,48 +35,48 @@ height="7.4375in"}
 -   Filter Select -- фильтрация выделенной области, появляется окно, в
     котором заданы выделенные параметры (Верхняя/Нижняя частота среза)
 
-> ![](vertopal_98581d7ae3834858b460099727913768/media/image3.png){width="13.0625in"
+> ![](media/images_redactor/image3.png){width="13.0625in"
 > height="7.427083333333333in"}
 >
 > Результат:
 
-![](vertopal_98581d7ae3834858b460099727913768/media/image4.png){width="13.041666666666666in"
+![](media/images_redactor/image4.png){width="13.041666666666666in"
 height="7.4375in"}
 
 -   Cut Freq Select -- вырезание выделенного участка:
 
-![](vertopal_98581d7ae3834858b460099727913768/media/image5.png){width="13.041666666666666in"
+![](media/images_redactor/image5.png){width="13.041666666666666in"
 height="7.4375in"}
 
 -   Filter Translate Resample (FTR) -- фильтрация, перенос по частоте,
     передискретизация с заданными параметрами (параметры задаются
     автоматически, можно редактировать)
 
-> ![](vertopal_98581d7ae3834858b460099727913768/media/image6.png){width="8.75in"
+> ![](media/images_redactor/image6.png){width="8.75in"
 > height="6.666666666666667in"}
-> ![](vertopal_98581d7ae3834858b460099727913768/media/image7.png){width="3.53125in"
+> ![](media/images_redactor/image7.png){width="3.53125in"
 > height="2.9375in"}
 >
 > Результат:
 >
-> ![](vertopal_98581d7ae3834858b460099727913768/media/image8.png){width="8.75in"
+> ![](media/images_redactor/image8.png){width="8.75in"
 > height="6.666666666666667in"}
 
 Также к реализации можно применить любой из модулей ЦОС из раздела
 Plugins, например, применить нелинейное преобразование, возведем во
 вторую степень, чтобы точно определить несущую частоту:
 
-![](vertopal_98581d7ae3834858b460099727913768/media/image9.png){width="5.34375in"
+![](media/images_redactor/image9.png){width="5.34375in"
 height="3.4791666666666665in"}
 
-![](vertopal_98581d7ae3834858b460099727913768/media/image10.png){width="17.458333333333332in"
+![](media/images_redactor/image10.png){width="17.458333333333332in"
 height="10.385416666666666in"}
 
 Нашли два пика (при возведении в степень 2 выделяется несущая частота)
 один на частоте 665,3/2 = 332,6, второй 1993/2 = 996,5, что
 соответствует действительности:
 
-![](vertopal_98581d7ae3834858b460099727913768/media/image11.png){width="7.509612860892388in"
+![](media/images_redactor/image11.png){width="7.509612860892388in"
 height="5.668140857392826in"}
-![](vertopal_98581d7ae3834858b460099727913768/media/image12.png){width="7.489583333333333in"
+![](media/images_redactor/image12.png){width="7.489583333333333in"
 height="5.645833333333333in"}

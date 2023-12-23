@@ -1,6 +1,6 @@
 ## **Экспорт**
 
-![](vertopal_47212c5f6686493799add016c9553cc3/media/image1.png){width="4.770833333333333in"
+![](media/images_convert/image1.png){width="4.770833333333333in"
 height="1.6354166666666667in"}
 
 Текущую реализацию можно экспортировать в различные форматы, для этого
@@ -8,11 +8,11 @@ height="1.6354166666666667in"}
 
 Необходимо выбрать тип сохраняемых контейнеров
 
-![](vertopal_47212c5f6686493799add016c9553cc3/media/image2.png){width="4.770833333333333in"
+![](media/images_convert/image2.png){width="4.770833333333333in"
 height="1.6354166666666667in"}
 
 Далее выбрать кодирование:
 
-![](vertopal_47212c5f6686493799add016c9553cc3/media/image3.png){width="4.770833333333333in"
-height="1.6354166666666667in"}![](vertopal_47212c5f6686493799add016c9553cc3/media/image4.png){width="4.770833333333333in"
+![](media/images_convert/image3.png){width="4.770833333333333in"
+height="1.6354166666666667in"}![](media/images_convert/image4.png){width="4.770833333333333in"
 height="1.6354166666666667in"}
