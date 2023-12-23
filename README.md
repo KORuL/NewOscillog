@@ -4,19 +4,19 @@
 
 Инструмент анализа сигналов способен работать с различными форматами данных и осуществлять технический анализ различных видов:
 
-- [Спектральный анализ](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Spectr.docx)
-- [Спектрально-временной анализ](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\SpectrPrimer.docx)
-- [Корреляционный анализ](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Corr.docx)
-- [Синхронизация с выбранным эталоном](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Synchr.docx)
-- [Пеленгационный анализ](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Peleng.docx)
-- [Собственно-структурный анализ](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\VSZ.docx)
-- [Анализ оконных функций](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Wintool.docx)
-- [Анализ огибающей сигнала](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Ogib.docx)
-- [Фазовая плоскость](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Phaz.docx)
-- [Модуль ЦОС](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Modul.docx) – реализованы различные инструменты для цифровой обработки сигналов
-- [Взвешивание](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\MSKOMVSM.docx) многоканальных реализаций по различным критериям адаптивных антенных систем
-- [Редактирование](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Redactor.docx), [генерация](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Generator.docx), [воспроизведение](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Play.docx) и [изменение параметров реализаций](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\ParametrChange.docx)
-- Экспорт в различные форматы ([конвертор](G:\_Projects\_Projects\NewOscillog\NewOscillog\Docs\docx\Convert.docx))
+- [Спектральный анализ](./Spectr.md)
+- [Спектрально-временной анализ](./SpectrPrimer.md)
+- [Корреляционный анализ](./Corr.md)
+- [Синхронизация с выбранным эталоном](./Synchr.md)
+- [Пеленгационный анализ](./Peleng.md)
+- [Собственно-структурный анализ](./VSZ.md)
+- [Анализ оконных функций](./Wintool.md)
+- [Анализ огибающей сигнала](./Ogib.md)
+- [Фазовая плоскость](./Phaz.md)
+- [Модуль ЦОС](./Modul.md) – реализованы различные инструменты для цифровой обработки сигналов
+- [Взвешивание](./MSKOMVSM.md) многоканальных реализаций по различным критериям адаптивных антенных систем
+- [Редактирование](./Redactor.md), [генерация](./Generator.md), [воспроизведение](./Play.md) и [изменение параметров реализаций](./ParametrChange.md)
+- Экспорт в различные форматы ([конвертор](./Convert.md))
 
 **NewOscillog** работает со следующими форматами данных: 
 
@@ -45,3 +45,5 @@
 
 ![](media/images/Aspose.Words.27f32d33-06f6-498a-8ec5-c7bc19ce7d49.002.png "All_1024")
 
+
+Старая версия Oscillog+(https://github.com/KORuL/Oscillog), у нее более ограниченный функционал, не кэширует файлы а читает напрямую.
